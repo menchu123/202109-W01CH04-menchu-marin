@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="component-2-style.css" />
     <title>Single price grid</title>
   </head>
-  <body>
-    <section class="card">
-      <div class="header">
+  <body class="d-flex justify-content-center align-items-center">
+    <section class="card row shadowed">
+      <div class="header col">
         <h1 class="title">Join our community</h1>
         <h2 class="subtitle">30-day, hassle-free money back guarantee</h2>
         <p class="header__text">
@@ -18,8 +24,8 @@
           Perfect for any developers who are serious about honing their skills.
         </p>
       </div>
-      <div class="bottom">
-        <div class="bottom__card bottom__card--left">
+      <div class="bottom row m-0 p-0">
+        <div class="bottom__card bottom__card--left col-6">
           <h2 class="subtitle--bottom">Monthly Subscription</h2>
           <div class="bottom__price">
             <p class="price">&dollar;29</p>
@@ -27,7 +33,7 @@
           </div>
           <button class="primary">Sign Up</button>
         </div>
-        <div class="bottom__card bottom__card--right">
+        <div class="bottom__card bottom__card--right col-6">
           <h2 class="subtitle--bottom">Why Us</h2>
           <ul class="bottom__list">
             <li class="bottom_list-item">Tutorials by industry experts</li>
