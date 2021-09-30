@@ -4,36 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="component-3-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
     <title>3-column preview card component</title>
   </head>
-  <body>
-    <section class="column1">
-      <img src="" alt="" class="image image--1" />
-      <h2 class="title title--1">Sedans</h2>
-      <p class="text text--1">
-        Choose a sedan for its affordability and excellent fuel economy. Ideal
-        for cruising in the city or on your next road trip.
-      </p>
-      <button class="primary primary--1">Learn More</button>
-    </section>
-    <section class="column2">
-      <img src="" alt="" class="image image--2" />
-      <h2 class="title title--2">SUVs</h2>
-      <p class="text text--2">
-        Take an SUV for its spacious interior, power, and versatility. Perfect
-        for your next family vacation and off-road adventures.
-      </p>
-      <button class="primary primary--2">Learn More</button>
-    </section>
-    <section class="column3">
-      <img src="" alt="" class="image image--3" />
-      <h2 class="title title--3">Luxury</h2>
-      <p class="text text--3">
-        Cruise in the best car brands without the bloated prices. Enjoy the
-        enhanced comfort of a luxury rental and arrive in style.
-      </p>
-      <button class="primary primary--3">Learn More</button>
-    </section>
+  <body class="d-flex justify-content-center align-items-center">
+    <div class="card row">
+      <section class="column1 col-4 px-5 py-4">
+        <img
+          src="img/icon-sedans.svg"
+          alt="sedan icon"
+          class="image image--1"
+        />
+        <h2 class="title title--1">Sedans</h2>
+        <p class="text text--1">
+          Choose a sedan for its affordability and excellent fuel economy. Ideal
+          for cruising in the city or on your next road trip.
+        </p>
+        <button class="primary primary--1">Learn More</button>
+      </section>
+      <section class="column2 col-4 px-5 py-4">
+        <img src="img/icon-suvs.svg" alt="SUV icon" class="image image--2" />
+        <h2 class="title title--2">SUVs</h2>
+        <p class="text text--2">
+          Take an SUV for its spacious interior, power, and versatility. Perfect
+          for your next family vacation and off-road adventures.
+        </p>
+        <button class="primary primary--2">Learn More</button>
+      </section>
+      <section class="column3 col-4 px-5 py-4">
+        <img
+          src="img/icon-luxury.svg"
+          alt="luxury car icon"
+          class="image image--3"
+        />
+        <h2 class="title title--3">Luxury</h2>
+        <p class="text text--3">
+          Cruise in the best car brands without the bloated prices. Enjoy the
+          enhanced comfort of a luxury rental and arrive in style.
+        </p>
+        <button class="primary primary--3">Learn More</button>
+      </section>
+    </div>
   </body>
 </html>
