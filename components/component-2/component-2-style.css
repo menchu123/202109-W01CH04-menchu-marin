@@ -2,6 +2,7 @@
   --cyan: hsl(179, 62%, 43%);
   --bright-yellow: hsl(71, 73%, 54%);
   --light-cyan: #4abebd;
+  --lightest-cyan: #98e4e4;
 
   --light-gray: hsl(204, 43%, 93%);
   --gray-blue: hsl(218, 22%, 67%);
@@ -10,10 +11,13 @@
 body {
   height: 100vh;
   background-color: var(--light-gray);
+  font-family: "Karla", sans-serif;
+  font-size: 17px;
+  color: var(--gray-blue);
 }
 
 .shadowed {
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
 }
 
 .card {
@@ -25,7 +29,7 @@ body {
 
 .header {
   height: 50%;
-  padding: 35px;
+  padding: 40px 35px;
 }
 
 .bottom {
@@ -40,4 +44,55 @@ body {
 .bottom__card--right {
   background-color: var(--light-cyan);
   padding: 35px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  color: var(--cyan);
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+.subtitle--top {
+  color: var(--bright-yellow);
+}
+
+.bottom {
+  color: #fff;
+}
+
+.price {
+  font-size: 35px;
+  margin: 0;
+}
+
+.month {
+  margin-left: 10px;
+  margin-bottom: 0;
+  color: var(--lightest-cyan);
+}
+
+.bottom__text {
+  font-weight: light;
+}
+
+.primary {
+  border: none;
+  background-color: var(--bright-yellow);
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.bottom__list-item {
+  list-style: none;
+  font-size: 14px;
+  font-weight: light;
+  color: var(--lightest-cyan);
 }
