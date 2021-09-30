@@ -5,7 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="component-1-style.css" />
-    <title>Component 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Order Summary</title>
   </head>
-  <body></body>
+  <body>
+    <section class="card shadowed">
+      <div class="card__header">
+        <img
+          class="card__img"
+          src="img/illustration-hero.svg"
+          alt="Girl having fun while listening to music"
+        />
+      </div>
+      <div class="card__content">
+        <h2 class="title">Order Summary</h2>
+        <p class="card__text">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div class="plan">
+          <img
+            src="img/icon-music.svg"
+            alt="music note icon"
+            class="plan__icon"
+          />
+          <div class="plan__text">
+            <p class="plan__name">Annual Plan</p>
+            <p class="plan__price">$59.99/year</p>
+          </div>
+          <button class="underline">Change</button>
+        </div>
+        <button class="primary shadowed">Proceed to Payment</button>
+        <button class="muted">Cancel Order</button>
+      </div>
+    </section>
+  </body>
 </html>
