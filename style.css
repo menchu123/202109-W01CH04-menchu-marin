@@ -1,11 +1,13 @@
 body {
   height: 100vh;
   background-color: pink;
+  font-weight: lighter;
 }
 
 h1 {
   color: white;
   font-size: 40px;
+  font-weight: lighter;
   padding-bottom: 30px;
 }
 
@@ -15,6 +17,10 @@ article {
   background-color: lightcoral;
   color: white;
   border-radius: 20px;
+}
+
+h2 {
+  font-weight: lighter;
 }
 
 ul {
